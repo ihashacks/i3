@@ -148,3 +148,6 @@ bindsym $mod+Shift+r mode "resize"
 bar {
         status_command i3status
 }
+
+# application specific tweaks
+for_window [class=Guake] floating enable
