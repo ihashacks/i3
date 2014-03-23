@@ -154,3 +154,11 @@ bar {
 
 # application specific tweaks
 for_window [class=Guake] floating enable
+
+# startup stuff
+exec --no-startup-id sh ~/.fehbg
+exec --no-startup-id guake
+exec --no-startup-id gnome-settings-daemon
+exec --no-startup-id gnome-keyring-daemon
+exec --no-startup-id synapse -s
+exec --no-startup-id nm-applet
