@@ -153,7 +153,12 @@ bar {
 }
 
 # application specific tweaks
+for_window [class=Gcalctool] floating enable
 for_window [class=Guake] floating enable
+for_window [class=Gcolor2] floating enable
+for_window [class=Remmina] layout tabbed
+for_window [class=Synapse] border none
+for_window [class=Zim] layout tabbed
 
 # startup stuff
 exec --no-startup-id sh ~/.fehbg
