@@ -162,3 +162,4 @@ exec --no-startup-id gnome-settings-daemon
 exec --no-startup-id gnome-keyring-daemon
 exec --no-startup-id synapse -s
 exec --no-startup-id nm-applet
+exec --no-startup-id /home/brandon/.local/bin/pa-applet
