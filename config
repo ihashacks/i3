@@ -172,6 +172,8 @@ client.unfocused        #333333 #222222 #888888 #292d2e
 client.urgent           #2f343a #900000 #ffffff #900000
 
 # application specific tweaks
+for_window [class=Chromium-browser] layout tabbed
+for_window [class=Firefox] layout tabbed
 for_window [class=Gcalctool] floating enable
 for_window [class=Guake] floating enable
 for_window [class=Gcolor2] floating enable
