@@ -36,11 +36,17 @@ bindsym $mod+r exec dmenu_run
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
+# lock the screen
+bindsym $mod+l exec --no-startup-id i3lock -d -c 000000
+
+# suspend and lock the screen
+bindsym $mod+Shift+s exec --no-startup-id suspendandlock
+
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+#bindsym $mod+j focus left
+#bindsym $mod+k focus down
+#bindsym $mod+l focus up
+#bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
