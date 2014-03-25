@@ -178,6 +178,9 @@ client.focused_inactive #859900 #073642 #888888 #292d2e
 client.unfocused        #859900 #073642 #888888 #292d2e
 client.urgent           #2f343a #900000 #ffffff #900000
 
+# application keybindings
+bindcode 148 exec "gnome-calculator"
+
 # application specific tweaks
 for_window [class=Alarm-clock-applet] floating enable
 for_window [class=Avahi-discover] floating enable
