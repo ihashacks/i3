@@ -179,6 +179,7 @@ client.urgent           #2f343a #900000 #ffffff #900000
 
 # application specific tweaks
 for_window [class=Alarm-clock-applet] floating enable
+for_window [class=Avahi-discover] floating enable
 for_window [class=Chromium-browser] layout tabbed
 for_window [class=Empathy] layout tabbed
 for_window [class=Firefox] layout tabbed
