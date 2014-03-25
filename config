@@ -182,18 +182,18 @@ client.urgent           #2f343a #900000 #ffffff #900000
 bindcode 148 exec "gnome-calculator"
 
 # application specific tweaks
-for_window [class=Alarm-clock-applet] floating enable
-for_window [class=Avahi-discover] floating enable
-for_window [class=Chromium-browser] layout tabbed
-for_window [class=Empathy] layout tabbed
-for_window [class=Firefox] layout tabbed
-for_window [class=Gcalctool] floating enable
-for_window [class=Guake] floating enable
-for_window [class=Gcolor2] floating enable
-for_window [class=Remmina] layout tabbed
-for_window [class=Shutter] floating enable
-for_window [class=Synapse] border none
-for_window [class=Zim] layout tabbed
+for_window [class="Alarm-clock-applet"] floating enable
+for_window [class="Avahi-discover"] floating enable
+for_window [class="Chromium-browser"] layout tabbed
+for_window [class="Empathy"] layout tabbed
+for_window [class="Firefox"] layout tabbed
+for_window [class="Gcalctool"] floating enable
+for_window [class="Guake"] floating enable
+for_window [class="Gcolor2"] floating enable
+for_window [class="Remmina"] layout tabbed
+for_window [class="Shutter"] floating enable
+for_window [class="Synapse"] border none
+for_window [class="Zim"] layout tabbed
 
 # startup stuff
 #exec --no-startup-id sh ~/.fehbg
