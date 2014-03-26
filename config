@@ -177,7 +177,7 @@ client.urgent           #2f343a #900000 #ffffff #900000
 
 # application keybindings
 bindcode 148 exec "gnome-calculator"
-bindcode 150 exec "suspendandlock"
+bindcode 150 exec "/home/brandon/.local/bin/suspendandlock"
 bindcode 171 exec "rhythmbox-client --previous"
 bindcode 172 exec "rhythmbox-client --play-pause"
 bindcode 173 exec "rhythmbox-client --next"
