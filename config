@@ -156,24 +156,25 @@ bar {
 		position top
 		font pango:Ubuntu Mono 12
 		colors {
-				background	#073642
-				statusline	#657B83
-				separator	#859900
+		#		background	#073642
+		#		statusline	#657B83
+				statusline	#888888
+		#		separator	#859900
 
 				# class				border	backgr.	text
-				focused_workspace	#859900 #073642 #ffffff
-				active_workspace	#859900 #073642 #ffffff
-				inactive_workspace	#859900 #073642 #657B83
-				urgent_workspace	#859900 #dc322f #ffffff
+		#		focused_workspace	#859900 #073642 #ffffff
+		#		active_workspace	#859900 #073642 #ffffff
+		#		inactive_workspace	#859900 #073642 #657B83
+		#		urgent_workspace	#859900 #dc322f #ffffff
 		}
 }
 
 # window colors
 # class                 border  backgr. text    indicator
-client.focused          #859900 #073642 #ffffff #2e9ef4
-client.focused_inactive #859900 #073642 #888888 #292d2e
-client.unfocused        #859900 #073642 #888888 #292d2e
-client.urgent           #2f343a #900000 #ffffff #900000
+#client.focused          #859900 #073642 #ffffff #2e9ef4
+#client.focused_inactive #859900 #073642 #888888 #292d2e
+#client.unfocused        #859900 #073642 #888888 #292d2e
+#client.urgent           #2f343a #900000 #ffffff #900000
 
 # application keybindings
 bindcode 148 exec "gnome-calculator"
