@@ -206,6 +206,12 @@ for_window [class="Sushi-start"] border none
 for_window [class="Synapse"] border none
 for_window [class="Zim"] layout tabbed
 
+# assign applications to workspaces
+assign [class="Firefox"] 2:web
+assign [class="Pidgin"] 3:chat
+assign [class="Remmina"] 5
+assign [class="Zim"] 4
+
 # startup stuff
 #exec --no-startup-id sh ~/.fehbg
 exec --no-startup-id xsetroot -solid "#002B36"
