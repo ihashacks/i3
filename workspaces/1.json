@@ -1,0 +1,108 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "geometry": {
+       "height": 818,
+       "width": 1282,
+       "x": 0,
+       "y": 0
+    },
+    "name": "zsh @ launchpad:~",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^Gnome\\-terminal$",
+       // "instance": "^gnome\\-terminal\\-server$",
+       // "title": "^zsh\\ \\@\\ launchpad\\:\\~$",
+       // "window_role": "^gnome\\-terminal\\-window\\-e0115821\\-db6b\\-4ea4\\-b291\\-26f5a661f3e6$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "floating": "auto_off",
+            "geometry": {
+               "height": 818,
+               "width": 1282,
+               "x": 0,
+               "y": 0
+            },
+            "name": "zsh @ launchpad:~",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^Gnome\\-terminal$",
+               // "instance": "^gnome\\-terminal\\-server$",
+               // "title": "^zsh\\ \\@\\ launchpad\\:\\~$",
+               // "window_role": "^gnome\\-terminal\\-window\\-d51081a2\\-8deb\\-423f\\-b658\\-7c5d63627afd$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "floating": "auto_off",
+            "geometry": {
+               "height": 818,
+               "width": 1282,
+               "x": 0,
+               "y": 0
+            },
+            "name": "zsh @ launchpad:~",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^Gnome\\-terminal$",
+               // "instance": "^gnome\\-terminal\\-server$",
+               // "title": "^zsh\\ \\@\\ launchpad\\:\\~$",
+               // "window_role": "^gnome\\-terminal\\-window\\-c5217b6a\\-94ea\\-4530\\-9d8b\\-b21349713d3e$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // floating_con with 1 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": null,
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "none",
+            "current_border_width": 2,
+            "floating": "user_on",
+            "geometry": {
+               "height": 432,
+               "width": 1920,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Guake!",
+            "percent": 1,
+            "swallows": [
+               {
+               // "class": "^Guake$",
+               // "instance": "^guake$",
+               // "title": "^Guake\\!$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
