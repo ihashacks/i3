@@ -177,6 +177,7 @@ for_window [class="Chromium-browser"] layout tabbed
 for_window [class="Empathy"] layout tabbed, border none
 for_window [class="Firefox"] layout tabbed
 for_window [class="Gnome-calculator"] floating enable, border none
+for_window [class="Gnome-clocks"] floating enable, border none
 for_window [class="Gip"] floating enable
 for_window [class="Gnome-tweak-tool"] floating enable, border none
 for_window [class="Guake"] floating enable
