@@ -142,6 +142,7 @@ bar {
 		font pango:Ubuntu Mono 12
 		colors {
 		#		background	#073642
+				background	#222222
 		#		statusline	#657B83
 				statusline	#888888
 		#		separator	#859900
@@ -178,6 +179,8 @@ for_window [class="Empathy"] layout tabbed, border none
 for_window [class="Firefox"] layout tabbed
 for_window [class="Gnome-calculator"] floating enable, border none
 for_window [class="Gnome-clocks"] floating enable, border none
+for_window [class="Gnome-contacts"] floating enable, border none
+for_window [class="Gnome-control-center.real"] floating enable, border none
 for_window [class="Gip"] floating enable
 for_window [class="Gnome-tweak-tool"] floating enable, border none
 for_window [class="Guake"] floating enable
