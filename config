@@ -185,6 +185,7 @@ for_window [class="Gip"] floating enable
 for_window [class="Gnome-tweak-tool"] floating enable, border none
 for_window [class="Guake"] floating enable
 for_window [class="Gcolor2"] floating enable
+for_window [class="MPlayer"] floating enable
 for_window [class="Pidgin" window_role="conversation"] layout tabbed
 for_window [class="Remmina"] layout tabbed
 for_window [class="Shutter"] floating enable
