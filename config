@@ -202,7 +202,7 @@ assign [class="Remmina"] 5
 assign [class="Zim"] 4
 
 # startup stuff
-#exec --no-startup-id sh ~/.fehbg
+exec --no-startup-id sh ~/.fehbg
 exec --no-startup-id xsetroot -solid "#002B36"
 exec --no-startup-id gnome-settings-daemon
 exec --no-startup-id gnome-keyring-daemon --start --components=pkcs11,gpg,secrets
