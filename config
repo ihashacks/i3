@@ -171,6 +171,7 @@ bindcode 173 exec "rhythmbox-client --next"
 bindcode 199 exec "/home/brandon/.local/bin/touchpad-toggle"
 bindcode 233 exec "/home/brandon/.local/bin/xbacklightandnotify -inc"
 bindcode 232 exec "/home/brandon/.local/bin/xbacklightandnotify -dec"
+bindcode 236 exec "notify-send 'keyboard light'"
 
 # application specific tweaks
 for_window [class="Alarm-clock-applet"] floating enable
